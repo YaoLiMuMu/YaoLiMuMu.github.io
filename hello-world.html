@@ -112,7 +112,7 @@
 <meta property="og:site_name" content="quod erat demonstrandum">
 <meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. P2P原理">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-23T18:00:54.099Z">
+<meta property="og:updated_time" content="2019-05-25T12:37:44.766Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="YaoLi 技术博客">
 <meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. P2P原理">
@@ -398,7 +398,7 @@
                 
               
 
-              <time title="Created: 2019-05-24 02:00:54" itemprop="dateCreated datePublished" datetime="2019-05-24T02:00:54+08:00">2019-05-24</time>
+              <time title="Created: 2019-05-25 20:37:44" itemprop="dateCreated datePublished" datetime="2019-05-25T20:37:44+08:00">2019-05-25</time>
             
 
             
@@ -459,7 +459,7 @@
                 
                   <span class="post-meta-item-text">Symbols count in article: </span>
                 
-                <span title="Symbols count in article">788</span>
+                <span title="Symbols count in article">791</span>
               
 
               
@@ -496,7 +496,7 @@
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
 <h2 id="P2P原理分析说明"><a href="#P2P原理分析说明" class="headerlink" title="P2P原理分析说明"></a>P2P原理分析说明</h2><p>reference:<br><a href="https://www.zhihu.com/question/24884045" target="_blank" rel="noopener">知乎</a><br><a href="https://blog.csdn.net/dog250/article/details/46839201" target="_blank" rel="noopener">CSDN</a></p>
 <h3 id="P2P-通俗解释"><a href="#P2P-通俗解释" class="headerlink" title="P2P 通俗解释"></a>P2P 通俗解释</h3><p>葵花宝典》，全背下来要2个时辰，我和师兄潜入书房得到一套上下册但无法带出，每个人自己管自己背，要4个时辰后才能逃离书房。且以后互相不交流秘籍内容。新来的人还是要去书房偷看。如果我背上册，师兄背下册，我们1个时辰就能悄悄离开书房。回家后再花2个时辰互相交流上下册补全即可。共计3个时辰。而且只在书房里呆了1个时辰，被发现的概率大大降低。遇到新来的人，不需要去书房，我们直接讲给他听即可。</p>
-<h3 id="数学模型"><a href="#数学模型" class="headerlink" title="数学模型"></a>数学模型</h3><p>典型的P2P网络是一个全互联的网络，意思是每一对节点间都有一个双向连接，但是实际上，这个连接是逻辑上的，并非物理连接，在当前的互联网上，它指的是TCP/IP的网络连通性，而不是指实际存在全互联的网线，那样的话，世界真的成了19世纪末电话线那样的蜘蛛网了</p>
+<h3 id="数学模型与分析"><a href="#数学模型与分析" class="headerlink" title="数学模型与分析"></a>数学模型与分析</h3><p>典型的P2P网络是一个全互联的网络，意思是每一对节点间都有一个双向连接，但是实际上，这个连接是逻辑上的，并非物理连接，在当前的互联网上，它指的是TCP/IP的网络连通性，而不是指实际存在全互联的网线，那样的话，世界真的成了19世纪末电话线那样的蜘蛛网了</p>
 <h3 id="new-world-new-time"><a href="#new-world-new-time" class="headerlink" title="new world new time"></a>new world new time</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
@@ -521,7 +521,41 @@
     
     
     
+<div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>Title:</span><a href="/hello-world.html">YaoLi 技术博客</a></p>
+  <p><span>Author:</span><a href="/" title="Visit YaoLi Blog">YaoLi</a></p>
+  <p><span>Posted:</span>2019-05-25 - 20:05</p>
+  <p><span>Updated:</span>2019-05-25 - 20:05</p>
+  <p><span>Permalink:</span><a href="/hello-world.html" title="YaoLi 技术博客">https://yaolimumu.github.io/hello-world.html</a>
+    <span class="copy-path" title="click to copy link"><i class="fa fa-clipboard" data-clipboard-text="https://yaolimumu.github.io/hello-world.html" aria-label="Complete the copy"></i></span>
+  </p>
+  <p><span>Content is available</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">Creative Commons BY-NC-ND 4.0</a> Please cite sources</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+    });
+    });  
+</script>
 
+
+      
+</div>
     
 
     
@@ -809,7 +843,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#P2P原理分析说明"><span class="nav-number">1.</span> <span class="nav-text">P2P原理分析说明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#P2P-通俗解释"><span class="nav-number">1.1.</span> <span class="nav-text">P2P 通俗解释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数学模型"><span class="nav-number">1.2.</span> <span class="nav-text">数学模型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#new-world-new-time"><span class="nav-number">1.3.</span> <span class="nav-text">new world new time</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.4.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.5.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.6.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#P2P原理分析说明"><span class="nav-number">1.</span> <span class="nav-text">P2P原理分析说明</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#P2P-通俗解释"><span class="nav-number">1.1.</span> <span class="nav-text">P2P 通俗解释</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数学模型与分析"><span class="nav-number">1.2.</span> <span class="nav-text">数学模型与分析</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#new-world-new-time"><span class="nav-number">1.3.</span> <span class="nav-text">new world new time</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.4.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.5.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.6.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -842,8 +876,6 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-      <span class="post-meta-item-text">Symbols count total: </span>
-    
     <span title="Symbols count total">1k</span>
   
 
@@ -852,8 +884,6 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    
-      <span class="post-meta-item-text">Reading time total &asymp;</span>
     
     <span title="Reading time total">1 mins.</span>
   
@@ -867,10 +897,7 @@
 
 
 
-<div class="theme-info">
-  <div class="powered-by"></div>
-#  <span class="post-count">博客全站共376字</span>
-</div>
+
 
         
 <div class="busuanzi-count">
