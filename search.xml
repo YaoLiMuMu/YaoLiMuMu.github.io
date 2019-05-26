@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Analysis of P2P network data distribution technonlgy]]></title>
+    <url>%2Fhello-world.html</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. P2P原理分析说明reference:知乎CSDN P2P 通俗解释葵花宝典》，全背下来要2个时辰，我和师兄潜入书房得到一套上下册但无法带出，每个人自己管自己背，要4个时辰后才能逃离书房。且以后互相不交流秘籍内容。新来的人还是要去书房偷看。如果我背上册，师兄背下册，我们1个时辰就能悄悄离开书房。回家后再花2个时辰互相交流上下册补全即可。共计3个时辰。而且只在书房里呆了1个时辰，被发现的概率大大降低。遇到新来的人，不需要去书房，我们直接讲给他听即可。 数学模型与分析典型的P2P网络是一个全互联的网络，意思是每一对节点间都有一个双向连接，但是实际上，这个连接是逻辑上的，并非物理连接，在当前的互联网上，它指的是TCP/IP的网络连通性，而不是指实际存在全互联的网线，那样的话，世界真的成了19世纪末电话线那样的蜘蛛网了 new world new time1$ hexo new "My New Post" More info: Writing Run server1$ hexo server ewfwfew More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>Technonlgy</category>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>Science</tag>
+        <tag>Mathematics</tag>
+        <tag>Power Electonics</tag>
+      </tags>
+  </entry>
+</search>
