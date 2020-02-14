@@ -10,12 +10,12 @@ categories:
 
 ## Old friends
 **Primary school (壶江)**
-赵伟 陈冰伦 
+- 赵伟 陈冰伦 
 **Primary school (宏隆)**
-庄鹭 汤伟坤 
+- 庄鹭 汤伟坤 
 **Junior high school (霞浦民中)**
-谢岳志 
+- 谢岳志 王莉莉
 **High school (宏翔)**
-陈朝洪 谢林城 刘晓锦 
+- 陈朝洪 谢林城 刘晓锦 
 **University(燕山)**
-雷石清 郑星权
+- 雷石清 郑星权
