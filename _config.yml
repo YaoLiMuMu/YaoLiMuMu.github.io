@@ -3,19 +3,19 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: All in one, one in all
-subtitle:
-description:
+title: quod erat demonstrandum 
+subtitle: Stay Hungry, Stay Foolish
+description: Wir müssen wissen, Wir werden wissen
 keywords: Science; Mathematics; Power Electonics; Technonlgy
-author: Madhouse
-language: English
+author: YaoLi
+language: zh-Hans 
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://yaolimumu.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 
 # Directory
@@ -27,7 +27,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-
+        - README.md
+        - CNAME
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -41,7 +42,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -75,10 +76,42 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next 
 
+sitemap:
+  path: sitemap.xml
+  
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:YaoLiMuMu/YaoLiMuMu.github.io.git
-  branch: dev
+  branch: master 
+
+# feed rss
+feed: 
+  type: atom
+  path: atom.xml
+  limit: 0
+
+plugins: hexo-generator-feed
+
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+
+# Algolia Search API key
+#  algolia:
+#  applicationID: I0KPHK5YQP
+#  apiKey: 1c52350cdc24c8615babbc5652314e06
+#  indexName: yaolimumu
+#  chunkSize: 5000
+
+search:
+        path: search.xml
+        field: post
+        format: html
+        limit: 10000
 
