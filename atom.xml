@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yaolimumu.github.io/"/>
-  <updated>2019-05-27T15:53:27.331Z</updated>
+  <updated>2020-02-14T12:48:37.980Z</updated>
   <id>https://yaolimumu.github.io/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Friends in memory</title>
+    <link href="https://yaolimumu.github.io/Private.html"/>
+    <id>https://yaolimumu.github.io/Private.html</id>
+    <published>2020-02-14T12:30:06.000Z</published>
+    <updated>2020-02-14T12:48:37.980Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Old-friends"><a href="#Old-friends" class="headerlink" title="Old friends"></a>Old friends</h2><p><strong>Primary school (壶江)</strong><br>赵伟 陈冰伦<br><strong>Primary school (宏隆)</strong><br>庄鹭 汤伟坤<br><strong>Junior high school (霞浦民中)</strong><br>谢岳志<br><strong>High school (宏翔)</strong><br>陈朝洪 谢林城 刘晓锦<br><strong>University(燕山)</strong><br>雷石清 郑星权</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Old-friends&quot;&gt;&lt;a href=&quot;#Old-friends&quot; class=&quot;headerlink&quot; title=&quot;Old friends&quot;&gt;&lt;/a&gt;Old friends&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Primary school (壶江)&lt;/stron
+      
+    
+    </summary>
+    
+      <category term="Private" scheme="https://yaolimumu.github.io/categories/Private/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Analysis of P2P network data distribution technonlgy</title>
     <link href="https://yaolimumu.github.io/hello-world.html"/>
     <id>https://yaolimumu.github.io/hello-world.html</id>
-    <published>2019-05-27T15:53:27.331Z</published>
-    <updated>2019-05-27T15:53:27.331Z</updated>
+    <published>2019-06-12T15:48:36.107Z</published>
+    <updated>2019-06-12T15:48:36.107Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="P2P原理分析说明"><a href="#P2P原理分析说明" class="headerlink" title="P2P原理分析说明"></a>P2P原理分析说明</h2><p>reference:<br><a href="https://www.zhihu.com/question/24884045" target="_blank" rel="noopener">知乎</a><br><a href="https://blog.csdn.net/dog250/article/details/46839201" target="_blank" rel="noopener">CSDN</a></p><h3 id="P2P-通俗解释"><a href="#P2P-通俗解释" class="headerlink" title="P2P 通俗解释"></a>P2P 通俗解释</h3><p>&lt;&lt;葵花宝典》，全背下来要2个时辰，我和师兄潜入书房得到一套上下册但无法带出，每个人自己管自己背，要4个时辰后才能逃离书房。且以后互相不交流秘籍内容。新来的人还是要去书房偷看。如果我背上册，师兄背下册，我们1个时辰就能悄悄离开书房。回家后再花2个时辰互相交流上下册补全即可。共计3个时辰。而且只在书房里呆了1个时辰，被发现的概率大大降低。遇到新来的人，不需要去书房，我们直接讲给他听即可。</p><h3 id="数学模型与分析"><a href="#数学模型与分析" class="headerlink" title="数学模型与分析"></a>数学模型与分析</h3><p>典型的P2P网络是一个全互联的网络，意思是每一对节点间都有一个双向连接，但是实际上，这个连接是逻辑上的，并非物理连接，在当前的互联网上，它指的是TCP/IP的网络连通性，而不是指实际存在全互联的网线，那样的话，世界真的成了19世纪末电话线那样的蜘蛛网了</p><h3 id="new-world-new-time"><a href="#new-world-new-time" class="headerlink" title="new world new time"></a>new world new time</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>ewfwfew</p><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><a id="more"></a><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="P2P原理分析说明"><a href="#P2P原理分析说明" class="headerlink" title="P2P原理分析说明"></a>P2P原理分析说明</h2><p>reference:<br><a href="https://www.zhihu.com/question/24884045" target="_blank" rel="noopener">知乎</a><br><a href="https://blog.csdn.net/dog250/article/details/46839201" target="_blank" rel="noopener">CSDN</a></p><h3 id="P2P-通俗解释"><a href="#P2P-通俗解释" class="headerlink" title="P2P 通俗解释"></a>P2P 通俗解释</h3><p>&lt;&lt;葵花宝典》，全背下来要2个时辰，我和师兄潜入书房得到一套上下册但无法带出，每个人自己管自己背，要4个时辰后才能逃离书房。且以后互相不交流秘籍内容。新来的人还是要去书房偷看。如果我背上册，师兄背下册，我们1个时辰就能悄悄离开书房。回家后再花2个时辰互相交流上下册补全即可。共计3个时辰。而且只在书房里呆了1个时辰，被发现的概率大大降低。遇到新来的人，不需要去书房，我们直接讲给他听即可。</p><h3 id="数学模型与分析"><a href="#数学模型与分析" class="headerlink" title="数学模型与分析"></a>数学模型与分析</h3><p>典型的P2P网络是一个全互联的网络，意思是每一对节点间都有一个双向连接，但是实际上，这个连接是逻辑上的，并非物理连接，在当前的互联网上，它指的是TCP/IP的网络连通性，而不是指实际存在全互联的网线，那样的话，世界真的成了19世纪末电话线那样的蜘蛛网了</p><h3 id="new-world-new-time"><a href="#new-world-new-time" class="headerlink" title="new world new time"></a>new world new time</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>ewfwfew</p><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><a id="more"></a><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p><p>fewew</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">st=&gt;start: 开始</span><br><span class="line">op=&gt;operation: My Operation</span><br><span class="line">cond=&gt;condition: Yes or No?</span><br><span class="line">e=&gt;end</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op</span><br><span class="line">&amp;</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
